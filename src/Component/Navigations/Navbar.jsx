@@ -1,4 +1,4 @@
-import MenuBar from "../../assets/Images/Vector.jpg";
+import MenuBar from "../../assets/Images/MenuBar.svg";
 import searchIcon from "../../assets/Images/Search.jpg";
 import cart from "../../assets/Images/Shopping_cart.jpg";
 import profile from "../../assets/Images/profile.jpg";
@@ -11,7 +11,7 @@ const NavBar = () => {
         <div className="flex items-center justify-between py-4 px-5 ">
           <div className="flex w-[50%] items-center justify-start ">
             <img
-              className="w-6 h-6 mr-4"
+              className="w-9 h-9 mr-4"
               src={MenuBar}
               alt="Image of menu bar"
             />

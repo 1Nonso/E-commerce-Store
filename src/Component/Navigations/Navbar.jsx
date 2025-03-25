@@ -8,10 +8,14 @@ const NavBar = () => {
     <>
       <section className="">
         <Promo />
-        <div className="flex justify-between py-4 px-5 ">
-          <div className="flex w-[50%] justify-start ">
-            <img className="w-6 h-6" src={MenuBar} alt="Image of menu bar" />
-            <p className="font-extrabold">SHOP.CO</p>
+        <div className="flex items-center justify-between py-4 px-5 ">
+          <div className="flex w-[50%] items-center justify-start ">
+            <img
+              className="w-6 h-6 mr-4"
+              src={MenuBar}
+              alt="Image of menu bar"
+            />
+            <p className="title font-extrabold text-3xl">SHOP.CO</p>
           </div>
           <div className="flex flex-row justify-evenly w-24 h-6 ">
             <img className="h-6 w-6" src={searchIcon} alt="" />

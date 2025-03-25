@@ -1,7 +1,7 @@
 import MenuBar from "../../assets/Images/MenuBar.svg";
-import searchIcon from "../../assets/Images/Search.jpg";
-import cart from "../../assets/Images/Shopping_cart.jpg";
-import profile from "../../assets/Images/profile.jpg";
+import search from "../../assets/Images/SearchIcon.svg";
+import cart from "../../assets/Images/cart.svg";
+import profile from "../../assets/Images/profile.svg";
 
 const NavBar = () => {
   return (
@@ -18,7 +18,7 @@ const NavBar = () => {
             <p className="title font-extrabold text-3xl">SHOP.CO</p>
           </div>
           <div className="flex flex-row justify-evenly w-24 h-6 ">
-            <img className="h-6 w-6" src={searchIcon} alt="" />
+            <img className="h-6 w-6" src={search} alt="" />
             <img className="h-6 w-6" src={cart} alt="" />
             <img className="h-6 w-6" src={profile} alt="" />
           </div>

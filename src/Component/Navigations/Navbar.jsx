@@ -15,7 +15,7 @@ const NavBar = () => {
               src={MenuBar}
               alt="Image of menu bar"
             />
-            <p className="title font-extrabold text-3xl">SHOP.CO</p>
+            <p className="title text-3xl relative bottom-1">SHOP.CO</p>
           </div>
           <div className="flex flex-row justify-evenly w-24 h-6 ">
             <img className="h-6 w-6" src={search} alt="" />

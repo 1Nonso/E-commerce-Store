@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -13,7 +13,7 @@
 }
 
 @font-face {
-  font-family: interal;
+  font-family: integral;
   src: url("./assets/Font/Fontspring-DEMO-integralcf-bold.otf");
 }
 
@@ -21,6 +21,15 @@ body {
   font-family: satoshi;
 }
 
-.title{
+.title,
+.text-1 {
   font-family: integral;
+}
+
+.text-1{
+  line-height: 2.5rem;
+}
+
+.home {
+  background-color: #f2f0f1;
 }

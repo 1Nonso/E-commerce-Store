@@ -1,5 +1,10 @@
 import horizontalRule from "../assets/Images/Line.svg";
-import designerPicture from "../assets/Images/DesignerPicture.svg"
+import designerPicture from "../assets/Images/DesignerPicture.svg";
+import versaceLogo from "../assets/Images/versaceLogo.svg";
+import zaraLogo from "../assets/Images/zara-logo.svg";
+import gucciLogo from "../assets/Images/circle-logo.svg";
+import pradaLogo from "../assets/Images/prada-logo.svg";
+import calvin_KleinLogo from "../assets/Images/ck-logo.svg";
 
 const HomePage = () => {
   return (
@@ -21,7 +26,7 @@ const HomePage = () => {
             <p className="text-2xl font-bold">200+</p>
             <p className="text-xs">International Brands</p>
           </div>
-          <img src={horizontalRule} alt="" />
+          <img src={horizontalRule} alt="horizontal Slash" />
           <div>
             <p className="text-2xl font-bold">2,000+</p>
             <p className="text-xs">High-Quality Products</p>
@@ -32,11 +37,30 @@ const HomePage = () => {
           <p className="text-xs">Happy Customers</p>
         </div>
         <div>
-          <img src={designerPicture} alt="" />
+          <img src={designerPicture} alt="image of fashion designers" />
         </div>
+        <LogoSection />
       </section>
     </>
   );
 };
 
 export default HomePage;
+
+const LogoSection = () => {
+  return (
+    <>
+      <section className="bg-black w-full p-10">
+        <div className="flex justify-between mb-7 ">
+          <img src={versaceLogo} alt="" />
+          <img src={zaraLogo} alt="" />
+          <img src={gucciLogo} alt="" />
+        </div>
+        <div className="flex justify-evenly">
+          <img src={pradaLogo} alt="" />
+          <img src={calvin_KleinLogo} alt="" />
+        </div>
+      </section>
+    </>
+  );
+};

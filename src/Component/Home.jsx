@@ -1,4 +1,5 @@
 import horizontalRule from "../assets/Images/Line.svg";
+import designerPicture from "../assets/Images/DesignerPicture.svg"
 
 const HomePage = () => {
   return (
@@ -29,6 +30,9 @@ const HomePage = () => {
         <div>
           <p className="text-2xl font-bold">30,000+</p>
           <p className="text-xs">Happy Customers</p>
+        </div>
+        <div>
+          <img src={designerPicture} alt="" />
         </div>
       </section>
     </>

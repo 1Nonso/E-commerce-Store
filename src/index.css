@@ -30,6 +30,24 @@ body {
   line-height: 2.5rem;
 }
 
-.home {
+.home,
+footer {
   background-color: #f2f0f1;
+}
+
+.f-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 3px;
+  margin-bottom: 1.25rem;
+}
+
+.description {
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 0.75rem;
+  }
 }

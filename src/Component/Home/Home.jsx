@@ -1,4 +1,4 @@
-import horizontalRule from "../../assets/Images/Line.svg";
+import verticalLine from "../../assets/Images/v-Line.svg";
 import designerPicture from "../../assets/Images/DesignerPicture.svg";
 import versaceLogo from "../../assets/Images/versaceLogo.svg";
 import zaraLogo from "../../assets/Images/zara-logo.svg";
@@ -27,7 +27,7 @@ const HomePage = () => {
             <p className="text-2xl font-bold">200+</p>
             <p className="text-xs">International Brands</p>
           </div>
-          <img src={horizontalRule} alt="horizontal Slash" />
+          <img src={verticalLine} alt="horizontal Slash" />
           <div>
             <p className="text-2xl font-bold">2,000+</p>
             <p className="text-xs">High-Quality Products</p>

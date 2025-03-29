@@ -1,12 +1,13 @@
-import horizontalRule from "../assets/Images/Line.svg";
-import designerPicture from "../assets/Images/DesignerPicture.svg";
-import versaceLogo from "../assets/Images/versaceLogo.svg";
-import zaraLogo from "../assets/Images/zara-logo.svg";
-import gucciLogo from "../assets/Images/circle-logo.svg";
-import pradaLogo from "../assets/Images/prada-logo.svg";
-import calvin_KleinLogo from "../assets/Images/ck-logo.svg";
+import horizontalRule from "../../assets/Images/Line.svg";
+import designerPicture from "../../assets/Images/DesignerPicture.svg";
+import versaceLogo from "../../assets/Images/versaceLogo.svg";
+import zaraLogo from "../../assets/Images/zara-logo.svg";
+import gucciLogo from "../../assets/Images/circle-logo.svg";
+import pradaLogo from "../../assets/Images/prada-logo.svg";
+import calvin_KleinLogo from "../../assets/Images/ck-logo.svg";
 
 const HomePage = () => {
+  console.log(designerPicture);
   return (
     <>
       <section className="home flex flex-col items-center ">
@@ -50,7 +51,7 @@ export default HomePage;
 const LogoSection = () => {
   return (
     <>
-      <section className="bg-black w-full p-10">
+      <section className="bg-black w-full py-8 px-5">
         <div className="flex justify-between mb-7 ">
           <img src={versaceLogo} alt="" />
           <img src={zaraLogo} alt="" />

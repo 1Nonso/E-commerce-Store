@@ -7,7 +7,7 @@ import verveMasterCard from "../assets/Images/Verve.svg";
 import paypal from "../assets/Images/Paypal.svg";
 import applePay from "../assets/Images/Apple-pay.svg";
 import googlePay from "../assets/Images/Google-pay.svg";
-import horizontalLine from "../assets/Images/h-Line.svg";
+import horizontalLine from "../assets/Images/h-line.svg";
 
 const Footer = () => {
   const socialMedia = [
